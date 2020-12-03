@@ -1,0 +1,112 @@
+{% extends "Main/Base.html" %}
+{% load static %}
+{% load i18n %}
+ {% block content %}
+
+ {% include 'Main/RegularNavbar.html' %}
+
+<title> {% trans "Egypt Fabrics | Order Summary" %}</title>
+<main>
+    <div class="container">
+    <div class="table-responsive text-nowrap" style="margin-top:90px">
+    <h2 style="font-family: 'Roboto', sans-serif; color: black !important;"> Order Summary</h2>
+    <style>
+
+       
+
+
+ 
+    </style>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col" style="font-weight: bold !important; font-size: 20px !important;color: black !important; font-family: 'Cairo', sans-serif !important;">#</th>
+            <th scope="col" style="font-weight: bold !important; font-size: 20px !important;color: black !important; font-family: 'Cairo', sans-serif !important;">{% trans "Item Title" %}</th>
+            <th scope="col" style="font-weight: bold !important; font-size: 20px !important;color: black !important; font-family: 'Cairo', sans-serif !important;"> {% trans "Price" %}</th>
+            <th scope="col" style="font-weight: bold !important; font-size: 20px !important;color: black !important; font-family: 'Cairo', sans-serif !important;">{% trans "Quantity" %}</th>
+            <th scope="col" style="font-weight: bold !important; font-size: 20px !important;color: black !important; font-family: 'Cairo', sans-serif !important;">{% trans "Size" %}</th> 
+            <th scope="col" style="font-weight: bold !important; font-size: 20px !important;color: black !important; font-family: 'Cairo', sans-serif !important;">{% trans "Total Item Price" %}</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for order_item in object.items.all %}
+        <tr>
+            <th scope="row" style=" font-family: 'Cairo', sans-serif !important;">{{ forloop.counter }}.</th>
+            <td style=" font-family: 'Cairo', sans-serif !important;">{{ order_item.item.title }}</td>
+            {% if order_item.variation.all %}
+            {% for variation in order_item.variation.all %}
+            <td style=" font-family: 'Cairo', sans-serif !important;"> {{ variation.pricy|capfirst}} 0</td>
+
+            {% endfor %}
+            {% endif %}
+            <td style=" font-family: 'Cairo', sans-serif !important;">
+            <a href="{% url 'Main:remove-single-item-from-cart' order_item.item.slug %}"><i class="fas fa-minus-circle mr-2"></a></i>
+              {{ order_item.quantity }}
+            <a href="{% url 'Main:add-to-cart' order_item.item.slug %}"><i class="fas fa-plus-circle ml-2"></a></i>
+            </td>                
+            <td style=" font-family: 'Cairo', sans-serif !important;">
+            {% if order_item.variation.all %}
+            {% for variation in order_item.variation.all %}
+            {{ variation.Title|capfirst}} 
+            {% endfor %}
+            {% endif %}
+            </td> 
+            <td>
+            {% if order_item.item.discount_price %}
+            {% trans "LE" %} {{ order_item.get_total_discount_item_price }}
+                <span class="badge badge-primary" style="margin-left:10px">{% trans "Saving LE" %}{{ order_item.get_amount_saved }}</span>
+            {% else %}
+          <span style=" font-family: 'Cairo', sans-serif !important;"> {% trans "LE" %} {{ order_item.get_total_item_price }}</span> 
+            {% endif %}
+            <a style="color:red" href="{% url 'Main:remove-from-cart' order_item.item.slug %}">
+            <i class="fas fa-trash float-right"></i>
+            </a>
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td style=" font-family: 'Cairo', sans-serif !important;" colspan='5'>{% trans "Your Cart is Empty" %}</td>
+        </tr>
+                 
+        {% endfor %}
+        {% if object.coupon %}
+        <tr>
+            <td colspan="4"><b style=" font-family: 'Cairo', sans-serif !important;">{% trans "Coupon" %}</b></td>
+            <td><b>{% trans "-LE" %}{{ object.coupon.amount }}</b></td>
+        </tr>            
+        {% endif %}
+        {% if object.get_total  %}
+          
+   
+        <tr>
+            <td colspan="5" style=" font-family: 'Cairo', sans-serif !important;"><b style="background-color: brown !important; padding: 5px !important;color: white !important;">{% trans "Sub total" %}</b></td>
+            <td><b  style="background-color: brown !important; padding: 5px !important;color: white !important;  font-family: 'Cairo', sans-serif !important;">  {% trans "LE" %} {{ object.get_total }}</b></td>
+        </tr>
+
+      
+      
+        <tr>
+            <td colspan="6">
+            <a  style=" font-family: 'Cairo', sans-serif !important;" class='btn btn-primary float-right ml-2' href='/'>{% trans "Continue Shopping" %}</a>
+            <a style=" font-family: 'Cairo', sans-serif !important;" class='btn btn-danger float-right'href='/checkout/'>{% trans "Proceed to Checkout" %}</a></td>
+        </tr> 
+        {% endif %}                    
+        </tbody>
+    </table>
+    </div>
+    </div>
+</main>
+
+  <script>
+        $('document').ready(function(){
+        $('#top-search').hide();
+        $('#langlang').hide();
+        });
+  </script>
+
+{% endblock content %}
+
+
+
+
+
