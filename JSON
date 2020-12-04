@@ -1,0 +1,312 @@
+POST
+Variable	Value
+csrfmiddlewaretoken	
+'S62tmEzPlWcRMkml5x00m3Ja5XiTaoGcHtoO79GtkuejHP5Zd6HYAzyx9mREayVg'
+size	
+'100.0      King'
+FILES
+No FILES data
+
+COOKIES
+Variable	Value
+csrftoken	
+'fBf27M1UFI9x4kxX9awbtzHIgb9v1AO14YBnSh8yEgbZZPgBhJd9H5w5kAIg1K35'
+sessionid	
+'eglqmlvsxi18jqqf8ftlqdxyoz0ooddj'
+django_language	
+'en'
+wcsid	
+'Vfksyk5GuQeRNcHo3m39N0N6SbP3akA4'
+hblid	
+'3M58BYVmFuNlDMDs3m39N0NaaASb466b'
+_oklv	
+'1607025007818%2CVfksyk5GuQeRNcHo3m39N0N6SbP3akA4'
+_okdetect	
+'%7B%22token%22%3A%2216070250084150%22%2C%22proto%22%3A%22http%3A%22%2C%22host%22%3A%22127.0.0.1%3A4040%22%7D'
+olfsk	
+'olfsk8942967205451191'
+_okbk	
+'cd4%3Dtrue%2Cvi5%3D0%2Cvi4%3D1607025009000%2Cvi3%3Dactive%2Cvi2%3Dfalse%2Cvi1%3Dfalse%2Ccd8%3Dchat%2Ccd6%3D0%2Ccd5%3Daway%2Ccd3%3Dfalse%2Ccd2%3D0%2Ccd1%3D0%2C'
+_ok	
+'1700-237-10-3483'
+messages	
+('f4c7b4d19ddc106391ee1f4ca5eb2aa8335abf1c$[["__json_message",0,20,"This item '
+ 'was removed from your cart."],["__json_message",0,20,"This item was removed '
+ 'from your cart."],["__json_message",0,20,"This item quantity was '
+ 'updated."],["__json_message",0,20,"This item quantity was '
+ 'updated."],["__json_message",0,20,"This item was removed from your '
+ 'cart."],["__json_message",0,20,"This item quantity was '
+ 'updated."],["__json_message",0,20,"This item quantity was '
+ 'updated."],["__json_message",0,20,"This item quantity was '
+ 'updated."],["__json_message",0,20,"This item quantity was '
+ 'updated."],["__json_message",0,20,"This item was removed from your '
+ 'cart."],["__json_message",0,20,"This item was removed from your '
+ 'cart."],["__json_message",0,20,"This item quantity was '
+ 'updated."],["__json_message",0,20,"This item quantity was '
+ 'updated."],["__json_message",0,20,"This item was removed from your '
+ 'cart."],["__json_message",0,20,"This item was removed from your '
+ 'cart."],["__json_message",0,20,"This item quantity was '
+ 'updated."],["__json_message",0,20,"This item was removed from your '
+ 'cart."],["__json_message",0,20,"This item quantity was '
+ 'updated."],["__json_message",0,20,"This item quantity was '
+ 'updated."],["__json_message",0,20,"This item quantity was '
+ 'updated."],["__json_message",0,20,"This item quantity was '
+ 'updated."],["__json_message",0,20,"This item was removed from your '
+ 'cart."],["__json_message",0,20,"This item was removed from your '
+ 'cart."],["__json_message",0,20,"This item quantity was '
+ 'updated."],["__json_message",0,20,"This item quantity was '
+ 'updated."],"__messagesnotfinished__"]')
+META
+Variable	Value
+ALLUSERSPROFILE	
+'C:\\ProgramData'
+APPDATA	
+'C:\\Users\\mohammed\\AppData\\Roaming'
+CHROME_CRASHPAD_PIPE_NAME	
+'\\\\.\\pipe\\crashpad_13524_KIHQHRGFRFPFPKFG'
+COLORTERM	
+'truecolor'
+COMMONPROGRAMFILES	
+'C:\\Program Files\\Common Files'
+COMMONPROGRAMFILES(X86)	
+'C:\\Program Files (x86)\\Common Files'
+COMMONPROGRAMW6432	
+'C:\\Program Files\\Common Files'
+COMPUTERNAME	
+'DESKTOP-GA7TNIK'
+COMSPEC	
+'C:\\WINDOWS\\system32\\cmd.exe'
+CONTENT_LENGTH	
+'105'
+CONTENT_TYPE	
+'application/x-www-form-urlencoded'
+CSRF_COOKIE	
+'fBf27M1UFI9x4kxX9awbtzHIgb9v1AO14YBnSh8yEgbZZPgBhJd9H5w5kAIg1K35'
+DJANGO_SETTINGS_MODULE	
+'Travencia.settings'
+DOKANLIBRARY1	
+'C:\\Program Files\\Dokan\\Dokan Library-1.2.0\\'
+DOKANLIBRARY1_LIBRARYPATH_X64	
+'C:\\Program Files\\Dokan\\Dokan Library-1.2.0\\lib\\'
+DOKANLIBRARY1_LIBRARYPATH_X86	
+'C:\\Program Files\\Dokan\\Dokan Library-1.2.0\\x86\\lib\\'
+DRIVERDATA	
+'C:\\Windows\\System32\\Drivers\\DriverData'
+FPS_BROWSER_APP_PROFILE_STRING	
+'Internet Explorer'
+FPS_BROWSER_USER_PROFILE_STRING	
+'Default'
+GATEWAY_INTERFACE	
+'CGI/1.1'
+GETTEXTCLDRDIR	
+'C:\\Program Files\\gettext-iconv\\lib\\gettext'
+GIT_ASKPASS	
+('c:\\Program Files\\Microsoft VS '
+ 'Code\\resources\\app\\extensions\\git\\dist\\askpass.sh')
+HOMEDRIVE	
+'C:'
+HOMEPATH	
+'\\Users\\mohammed'
+HTTP_ACCEPT	
+'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+HTTP_ACCEPT_ENCODING	
+'gzip, deflate, br'
+HTTP_ACCEPT_LANGUAGE	
+'ar,en;q=0.9,de-DE;q=0.8,de;q=0.7,en-US;q=0.6,ar-EG;q=0.5'
+HTTP_CACHE_CONTROL	
+'max-age=0'
+HTTP_CONNECTION	
+'keep-alive'
+HTTP_COOKIE	
+('csrftoken=fBf27M1UFI9x4kxX9awbtzHIgb9v1AO14YBnSh8yEgbZZPgBhJd9H5w5kAIg1K35; '
+ 'sessionid=eglqmlvsxi18jqqf8ftlqdxyoz0ooddj; django_language=en; '
+ 'wcsid=Vfksyk5GuQeRNcHo3m39N0N6SbP3akA4; '
+ 'hblid=3M58BYVmFuNlDMDs3m39N0NaaASb466b; '
+ '_oklv=1607025007818%2CVfksyk5GuQeRNcHo3m39N0N6SbP3akA4; '
+ '_okdetect=%7B%22token%22%3A%2216070250084150%22%2C%22proto%22%3A%22http%3A%22%2C%22host%22%3A%22127.0.0.1%3A4040%22%7D; '
+ 'olfsk=olfsk8942967205451191; '
+ '_okbk=cd4%3Dtrue%2Cvi5%3D0%2Cvi4%3D1607025009000%2Cvi3%3Dactive%2Cvi2%3Dfalse%2Cvi1%3Dfalse%2Ccd8%3Dchat%2Ccd6%3D0%2Ccd5%3Daway%2Ccd3%3Dfalse%2Ccd2%3D0%2Ccd1%3D0%2C; '
+ '_ok=1700-237-10-3483; '
+ 'messages="f4c7b4d19ddc106391ee1f4ca5eb2aa8335abf1c$[[\\"__json_message\\"\\0540\\05420\\054\\"This '
+ 'item was removed from your '
+ 'cart.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item was '
+ 'removed from your '
+ 'cart.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item quantity '
+ 'was updated.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item '
+ 'quantity was updated.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This '
+ 'item was removed from your '
+ 'cart.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item quantity '
+ 'was updated.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item '
+ 'quantity was updated.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This '
+ 'item quantity was '
+ 'updated.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item '
+ 'quantity was updated.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This '
+ 'item was removed from your '
+ 'cart.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item was '
+ 'removed from your '
+ 'cart.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item quantity '
+ 'was updated.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item '
+ 'quantity was updated.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This '
+ 'item was removed from your '
+ 'cart.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item was '
+ 'removed from your '
+ 'cart.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item quantity '
+ 'was updated.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item was '
+ 'removed from your '
+ 'cart.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item quantity '
+ 'was updated.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item '
+ 'quantity was updated.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This '
+ 'item quantity was '
+ 'updated.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item '
+ 'quantity was updated.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This '
+ 'item was removed from your '
+ 'cart.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item was '
+ 'removed from your '
+ 'cart.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item quantity '
+ 'was updated.\\"]\\054[\\"__json_message\\"\\0540\\05420\\054\\"This item '
+ 'quantity was updated.\\"]\\054\\"__messagesnotfinished__\\"]"')
+HTTP_HOST	
+'127.0.0.1:8000'
+HTTP_ORIGIN	
+'http://127.0.0.1:8000'
+HTTP_REFERER	
+'http://127.0.0.1:8000/product/premium-cotton-pillowcase-100-cottonpremium-cotton-pillowcase-100-cottonpremium-cotton-pillowcase-100-cottonpremium-cotton-pillowcase-110001763301000176330/'
+HTTP_SEC_FETCH_DEST	
+'document'
+HTTP_SEC_FETCH_MODE	
+'navigate'
+HTTP_SEC_FETCH_SITE	
+'same-origin'
+HTTP_SEC_FETCH_USER	
+'?1'
+HTTP_UPGRADE_INSECURE_REQUESTS	
+'1'
+HTTP_USER_AGENT	
+('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like '
+ 'Gecko) Chrome/87.0.4280.66 Safari/537.36')
+LANG	
+'en_US.UTF-8'
+LOCALAPPDATA	
+'C:\\Users\\mohammed\\AppData\\Local'
+LOGONSERVER	
+'\\\\DESKTOP-GA7TNIK'
+NUMBER_OF_PROCESSORS	
+'4'
+ONEDRIVE	
+'C:\\Users\\mohammed\\OneDrive'
+ONEDRIVECONSUMER	
+'C:\\Users\\mohammed\\OneDrive'
+ORIGINAL_XDG_CURRENT_DESKTOP	
+'undefined'
+OS	
+'Windows_NT'
+PATH	
+('C:\\Users\\mohammed\\Desktop\\Travencia/Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program '
+ 'Files\\Microsoft VS Code\\bin;C:\\Program '
+ 'Files\\gettext-iconv\\bin;C:\\Program Files\\nodejs\\;C:\\Program '
+ 'Files\\Git\\cmd;C:\\Users\\mohammed\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\mohammed\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\Users\\mohammed\\AppData\\Roaming\\ActiveState\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program '
+ 'Files\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Program '
+ 'Files\\gettext-iconv\\bin;C:\\Users\\mohammed\\AppData\\Roaming\\npm')
+PATHEXT	
+'.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+PATH_INFO	
+'/add-to-cart/premium-cotton-pillowcase-100-cottonpremium-cotton-pillowcase-100-cottonpremium-cotton-pillowcase-100-cottonpremium-cotton-pillowcase-110001763301000176330/'
+PROCESSOR_ARCHITECTURE	
+'AMD64'
+PROCESSOR_IDENTIFIER	
+'Intel64 Family 6 Model 37 Stepping 5, GenuineIntel'
+PROCESSOR_LEVEL	
+'6'
+PROCESSOR_REVISION	
+'2505'
+PROG27B48B2C054	
+'1'
+PROG27B48B2C056	
+'1'
+PROGRAMDATA	
+'C:\\ProgramData'
+PROGRAMFILES	
+'C:\\Program Files'
+PROGRAMFILES(X86)	
+'C:\\Program Files (x86)'
+PROGRAMW6432	
+'C:\\Program Files'
+PSMODULEPATH	
+('C:\\Users\\mohammed\\Documents\\WindowsPowerShell\\Modules;C:\\Program '
+ 'Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules')
+PUBLIC	
+'C:\\Users\\Public'
+PYTHON	
+'C:\\Users\\mohammed\\AppData\\Local\\Programs\\Python\\Python38'
+PYTHON38-32	
+'C:\\Users\\mohammed\\AppData\\Local\\Programs\\Python\\Python38-32'
+QUERY_STRING	
+''
+REMOTE_ADDR	
+'127.0.0.1'
+REMOTE_HOST	
+''
+REQUEST_METHOD	
+'POST'
+RUN_MAIN	
+'true'
+SCRIPT_NAME	
+''
+SERVER_NAME	
+'DESKTOP-GA7TNIK'
+SERVER_PORT	
+'8000'
+SERVER_PROTOCOL	
+'HTTP/1.1'
+SERVER_SOFTWARE	
+'WSGIServer/0.2'
+SESSIONNAME	
+'Console'
+SYSTEMDRIVE	
+'C:'
+SYSTEMROOT	
+'C:\\WINDOWS'
+TEMP	
+'C:\\Users\\mohammed\\AppData\\Local\\Temp'
+TERM_PROGRAM	
+'vscode'
+TERM_PROGRAM_VERSION	
+'1.51.1'
+TMP	
+'C:\\Users\\mohammed\\AppData\\Local\\Temp'
+USERDOMAIN	
+'DESKTOP-GA7TNIK'
+USERDOMAIN_ROAMINGPROFILE	
+'DESKTOP-GA7TNIK'
+USERNAME	
+'mohammed'
+USERPROFILE	
+'C:\\Users\\mohammed'
+VIRTUAL_ENV	
+'C:\\Users\\mohammed\\Desktop\\Travencia'
+VSCODE_GIT_ASKPASS_MAIN	
+('c:\\Program Files\\Microsoft VS '
+ 'Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js')
+VSCODE_GIT_ASKPASS_NODE	
+'C:\\Program Files\\Microsoft VS Code\\Code.exe'
+VSCODE_GIT_IPC_HANDLE	
+'\\\\.\\pipe\\vscode-git-29c0d126d3-sock'
+WINDIR	
+'C:\\WINDOWS'
+wsgi.errors	
+<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>
+wsgi.file_wrapper	
+''
+wsgi.input	
+<django.core.handlers.wsgi.LimitedStream object at 0x0000013EADB72BC8>
+wsgi.multiprocess	
+False
+wsgi.multithread	
+True
+wsgi.run_once	
+False
+wsgi.url_scheme	
+'http'
+wsgi.version	
+(1, 0)
+Settings
